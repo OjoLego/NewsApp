@@ -24,6 +24,7 @@ import com.loc.newsapp.presentation.onboarding.Page
 import com.loc.newsapp.presentation.onboarding.pages
 import com.loc.newsapp.ui.theme.NewsAppTheme
 
+//Composable function that represents an individual onboarding page.
 @Composable
 fun OnBoardingPage(
     modifier: Modifier = Modifier,

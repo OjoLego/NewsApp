@@ -12,6 +12,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.loc.newsapp.ui.theme.WhiteGray
 
+/**
+ * Composable functions for  custom buttons in the NewsApp.
+ *
+ * @param text The text to display on the button.
+ * @param onClick The callback to execute when the button is clicked.
+ */
 @Composable
 fun NewsButton(
     text: String,
