@@ -7,4 +7,6 @@ interface NewsRepository {
 
     fun getNews(sources: List<String>): kotlinx.coroutines.flow.Flow<PagingData<Article>>
 
+    fun searchNews(searchQuery: String,sources: List<String>): kotlinx.coroutines.flow.Flow<PagingData<Article>>
+
 }
